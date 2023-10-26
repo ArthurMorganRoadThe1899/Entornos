@@ -4,7 +4,7 @@
 - **Nombre:** John Marston
 - **Fecha de Nacimiento:** 28 de septiembre de 1873
 - **Lugar de Nacimiento:** Escocia
-- **Email:** johnmarstonendlessoutlaw@gmail.com,    josalbarr@alu.edu.gva.es
+- **Email:** johnmarstonendlessoutlaw@gmail.com, josalbarr@alu.edu.gva.es
 - **Teléfono:** +1 684 25 235 78
 
 ## **Perfil** 
