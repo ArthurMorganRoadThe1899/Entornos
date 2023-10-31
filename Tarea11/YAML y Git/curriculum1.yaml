@@ -1,0 +1,45 @@
+informacion_personal:
+  nombre: Jose
+  direccion: Av. Corazón de Jesús
+  telefono: +34 654 356 32 23
+  correo: josalbarr@alu.edu.gva.es
+
+resumen: |
+ Soy un informático amateur con la busqueda de autosuperarme cada día.
+
+experiencia_laboral:
+  - puesto: Administrador de sistemas
+    empresa: tugesto
+    periodo: Septiembre 2025 - Presente
+    descripcion: DAW-DAM
+
+educacion:
+  - titulo: Desarrollo de aplicaciones web
+    institucion: IES Benigaslo
+    periodo: 2020 - 2025
+  - titulo: Desarrollo de aplicaiones multiplataforma
+    institucion: Universidad ABC
+    periodo: 2020 - 2025
+
+habilidades:
+  - Java
+  - Python
+  - Laravel
+  - PHP
+  - Git/GitHub
+  - SQL
+
+proyectos:
+  - nombre: Proyecto D&D
+    descripcion: Desarrollo de una aplicación con java basada en los juegos antiguos de d&d textuales.
+  - nombre: Proyecto ACUARIO
+    descripcion: Crear con un grupo a conjunto, un repositorio local que almacene automaticamente todos los archivos relacionados con un proyecto.
+
+idiomas:
+  - idioma: Inglés
+    nivel: Avanzado
+
+certificaciones:
+  - certificacion: Certificado de Desarrollador Web
+    institucion: IES Benigaslo
+    fecha: Julio 2025
