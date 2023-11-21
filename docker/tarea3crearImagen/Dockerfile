@@ -1,6 +1,3 @@
-FROM ubuntu:latest
+FROM nginx:latest
 
-RUN apt-get -y update;
-
-CMD ["bash"]
-
+COPY nginx.conf nginx.conf
