@@ -1,3 +1,4 @@
 FROM cmatrix_jose_ub
 
-RUN /cmatrix.sh
+RUN chmod +x /cmatrix.sh
+ENTRYPOINT ["/cmatrix.sh"]
