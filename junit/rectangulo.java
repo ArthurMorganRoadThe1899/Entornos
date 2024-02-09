@@ -14,3 +14,4 @@ public class rectangulo {
         return 2 * ancho + 2 * alto;
     }
 }
+/* preuba */
