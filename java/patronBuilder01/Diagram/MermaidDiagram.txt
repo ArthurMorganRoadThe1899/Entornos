@@ -1,0 +1,26 @@
+classDiagram
+    Banco <|-- Cliente
+    Banco : +int respuesta
+    Banco : +Scanner in
+    Banco : +Cliente cliente1
+    Banco: +main()
+    
+    class Cliente{
+      +Scanner in
+      +ArrayList movimientos
+      +String IBAM
+      +Nombre
+      +int dinero
+      int accion
+      +Cliente()
+      +dineroMaximoQuePuedeExtraerElCliente()
+      +extraccion()
+      +depositar()
+      +getDinero()
+      +generateUserIBAM()
+      +setNombre()
+      +getNombre()
+      +Movimientos()
+      +Movimientos()
+      +toString()
+    }
