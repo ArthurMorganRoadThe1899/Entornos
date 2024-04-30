@@ -130,7 +130,7 @@ public class Cliente {
 
 
     // DATA DEL CLIENTE //
-    public String toString(){
+        public String toString(){
         return "Nombre: " + Nombre + "\nDINERO: " + dinero + "€\nIBAM: " + IBAM;
     }
 }
