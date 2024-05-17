@@ -13,7 +13,7 @@ public class App {
         pj.setWeapon("Keyblade");
 
         // Guardamos sus datos
-        pj.setSaveState(1);
+        //pj.setSaveState(1);
         originator.setEstado(pj);
         caretaker.addMemento(originator.guardar());
 
@@ -30,7 +30,7 @@ public class App {
         pj.setWeapon("Keyblade");
 
         // Guardamos sus datos
-        pj.setSaveState(2);
+        //pj.setSaveState(2);
         originator.setEstado(pj);
         caretaker.addMemento(originator.guardar());
 
@@ -40,6 +40,7 @@ public class App {
         // Este esta parte del código es para regresar pj a, en esta ocasión, su primer estado, que era el de Sora
         /*originator.restaurar(caretaker.getMemento(0));
         pj = originator.getEstado();
+        System.out.println("\n\nSavestate back: ");
         System.out.println(pj.toString());*/
     }
 }

@@ -25,8 +25,7 @@ public class Personaje {
         this.weapon = weapon;
     }
 
-    // Esto lo he de hacer del propio personaje, que es establecer savestates de sus estados actuales para pasarlo después a las clases que manejan el flujo de sus datos xd
-    // Esto se utiliza ara establecer la "posición" de checkpoint que quieres asignarle al checkpoint
+    // Esto de acá es pura chumina', sirve básicamente para tener un punto de referencía del checkpoint actual xd
     public void setSaveState(int savestate){
         this.savestate = savestate;
     }
@@ -38,4 +37,11 @@ public class Personaje {
     public String toString(){
         return "\u001B[32mNombre: " + name + "\u001B[31m | Edad: " + age + "\u001B[36m | Género: " + gender+ "\u001B[33m | Arma: " + weapon+ "\u001B[0m";
     }
+
+    /*
+    @Override
+    public String toString(){
+        return "\u001B[32mNombre: " + name + "\u001B[31m | Edad: " + age + "\u001B[36m | Género: " + gender+ "\u001B[33m | Arma: " + weapon+ "| Savestate: ["+savestate+"]\u001B[0m";
+    }
+    */
 }
