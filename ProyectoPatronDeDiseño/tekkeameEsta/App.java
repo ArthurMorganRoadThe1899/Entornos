@@ -24,7 +24,7 @@ public class App {
         // y poco esta a poca vida, imaginemos que esta programado internamente, pero agarra y como la vida es menor del 25% agarra y se pone en modo rage
         pj = new Personaje();
         pj.setName("Kazuma Mishima");
-        pj.setHealth(20);
+        pj.setHealth(20); // Esto sería el 16% de la vida total (125)
         pj.setGender("Male");
         pj.setRage(true);
         pj.setSaveState(2);
