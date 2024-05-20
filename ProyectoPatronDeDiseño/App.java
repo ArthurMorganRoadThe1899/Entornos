@@ -38,9 +38,9 @@ public class App {
         System.out.println(pj.toString());
 
         // Este esta parte del código es para regresar pj a, en esta ocasión, su primer estado, que era el de Sora
-        /*originator.restaurar(caretaker.getMemento(0));
+        originator.restaurar(caretaker.getMemento(0));
         pj = originator.getEstado();
         System.out.println("\n\nSavestate back: ");
-        System.out.println(pj.toString());*/
+        System.out.println(pj.toString());
     }
 }
